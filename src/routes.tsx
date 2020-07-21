@@ -11,6 +11,8 @@ import Exemplo_Imagem from './pages/Exemplo_Imagem';
 import Exemplo_Tabela from './pages/Exemplo_Tabela';
 import Exemplo_Alerta from './pages/Exemplo_Alerta';
 import Exemplo_Button from './pages/Exemplo_Button';
+import Exemplo_Badge from './pages/Exemplo_Badge';
+import Exemplo_ListGroup from './pages/Exemplo_ListGroup';
 
 const Routes = () => {
   return (
@@ -25,6 +27,8 @@ const Routes = () => {
       <Route component={Exemplo_Tabela} path="/exemplo-tabela" />
       <Route component={Exemplo_Alerta} path="/exemplo-alerta" />
       <Route component={Exemplo_Button} path="/exemplo-button" />
+      <Route component={Exemplo_Badge} path="/exemplo-badge" />
+      <Route component={Exemplo_ListGroup} path="/exemplo-listgroup" />
     </BrowserRouter>
   )
 }
