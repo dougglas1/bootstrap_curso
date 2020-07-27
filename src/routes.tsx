@@ -13,6 +13,14 @@ import Exemplo_Alerta from './pages/Exemplo_Alerta';
 import Exemplo_Button from './pages/Exemplo_Button';
 import Exemplo_Badge from './pages/Exemplo_Badge';
 import Exemplo_ListGroup from './pages/Exemplo_ListGroup';
+import Exemplo_Dropdown from './pages/Exemplo_Dropdown';
+import Exemplo_Formulario from './pages/Exemplo_Formulario';
+import Exemplo_Formulario_Grid from './pages/Exemplo_Formulario_Grid';
+import Desafio02 from './pages/Desafio02';
+import Exemplo_Formulario_Inline from './pages/Exemplo_Formulario_Inline';
+import Exemplo_Formulario_Validacao from './pages/Exemplo_Formulario_Validacao';
+import Exemplo_Formulario_Validacao_Tooltip from './pages/Exemplo_Formulario_Validacao_Tooltip';
+import Exemplo_Formulario_Custom from './pages/Exemplo_Formulario_Custom';
 
 const Routes = () => {
   return (
@@ -29,6 +37,14 @@ const Routes = () => {
       <Route component={Exemplo_Button} path="/exemplo-button" />
       <Route component={Exemplo_Badge} path="/exemplo-badge" />
       <Route component={Exemplo_ListGroup} path="/exemplo-listgroup" />
+      <Route component={Exemplo_Dropdown} path="/exemplo-dropdown" />
+      <Route component={Exemplo_Formulario} path="/exemplo-formulario" />
+      <Route component={Exemplo_Formulario_Grid} path="/exemplo-formulario-grid" />
+      <Route component={Desafio02} path="/desafio02" />
+      <Route component={Exemplo_Formulario_Inline} path="/exemplo-formulario-inline" />
+      <Route component={Exemplo_Formulario_Validacao} path="/exemplo-formulario-validacao" />
+      <Route component={Exemplo_Formulario_Validacao_Tooltip} path="/exemplo-formulario-validacao-tooltip" />
+      <Route component={Exemplo_Formulario_Custom} path="/exemplo-formulario-custom" />
     </BrowserRouter>
   )
 }
