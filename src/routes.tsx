@@ -21,6 +21,8 @@ import Exemplo_Formulario_Inline from './pages/Exemplo_Formulario_Inline';
 import Exemplo_Formulario_Validacao from './pages/Exemplo_Formulario_Validacao';
 import Exemplo_Formulario_Validacao_Tooltip from './pages/Exemplo_Formulario_Validacao_Tooltip';
 import Exemplo_Formulario_Custom from './pages/Exemplo_Formulario_Custom';
+import Exemplo_MediaObject from './pages/Exemplo_MediaObject';
+import Exemplo_Breadcrumb from './pages/Exemplo_Breadcrumb';
 
 const Routes = () => {
   return (
@@ -45,6 +47,8 @@ const Routes = () => {
       <Route component={Exemplo_Formulario_Validacao} path="/exemplo-formulario-validacao" />
       <Route component={Exemplo_Formulario_Validacao_Tooltip} path="/exemplo-formulario-validacao-tooltip" />
       <Route component={Exemplo_Formulario_Custom} path="/exemplo-formulario-custom" />
+      <Route component={Exemplo_MediaObject} path="/exemplo-mediaobject" />
+      <Route component={Exemplo_Breadcrumb} path="/exemplo-breadcrumb" />
     </BrowserRouter>
   )
 }
